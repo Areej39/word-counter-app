@@ -40,7 +40,7 @@ function App() {
               onChange={handleInput}
               className="w-full resize-none rounded-xl border border-gray-300 p-4  leading-8 outline-none bg-white focus:ring-2 focus:ring-amber-400"
             />
-            <button onClick={handleDelete}
+            <button onClick={handleClear}
               className='mt-6 w-full rounded-xl bg-red-500 py-3 text-white font-semibold hover:bg-red-600 transition'
             >Clear</button>
           </div>
