@@ -1,16 +1,85 @@
-# React + Vite
+# Word Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive Word Counter application built with React and Tailwind CSS. It allows users to type or paste text and instantly view the total number of characters, words, and sentences. The application features a clean notebook-inspired interface and adapts seamlessly to different screen sizes.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Real-time character counting
+- Real-time word counting
+- Real-time sentence counting
+- Delete button to clear all text and reset counts
+- Responsive design for desktop, tablet, and mobile devices
+- Notebook-inspired user interface
+- Built with modern React using Hooks
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (ES6+)
+- Tailwind CSS
+- Vite
 
-## Expanding the Oxlint configuration
+## Screenshot
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+![Word Counter App](./screenshot.png)
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Areej39/word-counter-app.git
+```
+
+### Navigate to the project directory
+
+```bash
+cd word-counter-app
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local development URL shown in the terminal to view the application.
+
+## Project Structure
+
+```
+word-counter-app/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   └── assets/
+├── screenshot.png
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Future Improvements
+
+- Reading time estimation
+- Paragraph counter
+- Character count with and without spaces
+- Dark mode
+- Copy and download text functionality
+- Text statistics visualization
+
+## Author
+
+GitHub: https://github.com/Areej39
+
+### Live Demo
+
+https://word-counter-app-areej39.netlify.app/

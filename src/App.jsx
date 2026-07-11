@@ -17,7 +17,7 @@ function App() {
     setSentenceCount(sentences.length);
   }
 
-  function handleDelete() {
+  function handleClear() {
     setText("");
     setCharacterCount(0);
     setWordCount(0)
@@ -42,7 +42,7 @@ function App() {
             />
             <button onClick={handleDelete}
               className='mt-6 w-full rounded-xl bg-red-500 py-3 text-white font-semibold hover:bg-red-600 transition'
-            >Delete</button>
+            >Clear</button>
           </div>
 
           <div className='flex-1 p-6 md:p-8 bg-[#fffdf8]'>
